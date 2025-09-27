@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticaCampo6", "PracticaCampo6\PracticaCampo6.csproj", "{C06A2137-0067-4C96-B534-213FD5DCEE03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "funciones", "funciones\funciones.csproj", "{F48965F9-E3B6-41A9-903E-1B466DDFD02B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C06A2137-0067-4C96-B534-213FD5DCEE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06A2137-0067-4C96-B534-213FD5DCEE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06A2137-0067-4C96-B534-213FD5DCEE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06A2137-0067-4C96-B534-213FD5DCEE03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F48965F9-E3B6-41A9-903E-1B466DDFD02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48965F9-E3B6-41A9-903E-1B466DDFD02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48965F9-E3B6-41A9-903E-1B466DDFD02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48965F9-E3B6-41A9-903E-1B466DDFD02B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
