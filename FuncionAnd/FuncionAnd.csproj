@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C06A2137-0067-4C96-B534-213FD5DCEE03}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>PracticaCampo6</RootNamespace>
-    <AssemblyName>PracticaCampo6</AssemblyName>
+    <ProjectGuid>{19A9FAC3-02A3-4B23-831A-85D0E976B050}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FuncionAnd</RootNamespace>
+    <AssemblyName>FuncionAnd</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,26 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ClassAndre.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="Properties\.editorconfig" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FuncionAnd\FuncionAnd.csproj">
-      <Project>{19a9fac3-02a3-4b23-831a-85d0e976b050}</Project>
-      <Name>FuncionAnd</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\funcioneslucinda\funcioneslucinda.csproj">
-      <Project>{70697445-ef35-4f50-a3d9-5ef4d5411d34}</Project>
-      <Name>funcioneslucinda</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\funciones\funciones.csproj">
-      <Project>{f48965f9-e3b6-41a9-903e-1b466ddfd02b}</Project>
-      <Name>funciones</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

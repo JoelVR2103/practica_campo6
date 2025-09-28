@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using FuncionAnd;
 using funciones;
 using funcioneslucinda;
 
@@ -49,8 +50,12 @@ namespace PracticaCampo6
             double pago = double.Parse(Console.ReadLine());
             Console.WriteLine("Salario total: S/. " + ClassDenis.CalcularSalario(horas, pago));
 
+            //Caso Andre: triplica un numero
+            Console.WriteLine("\n[Andre] Ingrese un número a triplicar:");
+            double num = double.Parse(Console.ReadLine());
+            Console.WriteLine("Número triplicado: " + ClassAndre.TriplicarNumero(num));
 
             EncabezadoPie.MostrarPiePagina();
-        }
+        } 
     }
 }
