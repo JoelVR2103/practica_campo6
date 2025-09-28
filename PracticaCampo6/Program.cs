@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using funciones;
+using funcioneslucinda;
 
 namespace PracticaCampo6
 {
@@ -41,6 +42,13 @@ namespace PracticaCampo6
             int min = int.Parse(Console.ReadLine());
             bool valida = ClassMaria.ValidarPassword(pass, min);
             Console.WriteLine(valida ? "Contraseña válida" : "Contraseña demasiado corta");
+
+            Console.WriteLine("\n[Denis] Ingrese horas trabajadas:");
+            int horas = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese pago por hora:");
+            double pago = double.Parse(Console.ReadLine());
+            Console.WriteLine("Salario total: S/. " + ClassDenis.CalcularSalario(horas, pago));
+
 
             EncabezadoPie.MostrarPiePagina();
         }
